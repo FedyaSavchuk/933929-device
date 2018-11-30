@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Fedya Savchuk](https://up.htmlacademy.ru/htmlcss/23/user/933929).
-* Наставник: `Неизвестно`.
+-* Наставник: [Николай Пойманов] (https://up.htmlacademy.ru/htmlcss/23/user/23280)
 
 ---
 
