@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+  </head>
+  <body>
+    <!--Меню сайта с логотипом-->
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="#" width="368" height="153" alt="Логотип интернет-магазина электроники «Device»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Каталог товаров</a></li>
+            <ul class="catalog-menu">
+              <li><a href="#">Виртуальная реальность</a></li>
+              <li><a>Моноподы для селфи</a></li>
+              <li><a href="#">Экшн-камеры</a></li>
+              <li><a href="#">Фитнес-браслеты</a></li>
+              <li><a href="#">Умные часы</a></li>
+              <li><a href="#">Квадрокоптеры</a></li>
+            </ul>
+          <li><a href="news.html">Доставка</a></li>
+          <li><a href="price.html">Гарантия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <div class="search">
+          <p>Поиск по сайту</p>
+        <div>
+        <ul class="user-navigation">
+          <li><a class="login-link" href="#"><img src="img/user.svg" width="13" height="12" alt="Кнопка войти в личный кабинет">Войти</a></li>
+          <li><a class="compare-link" href="#"><img src="img/compare.svg" width="10" height="10" alt="Кнопка сравнить товары">Сравнить</a></li>
+          <li><a class="cart-link" href="#"><img src="img/cart.svg" width="12" height="12" alt="Кнопка корзина">Корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main class="container">
+      <h1>Моноподы для селфи</h1>
+      <ul class="bread-crumbs">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог товаров</a></li>
+        <li><a>Моноподы для селфи</a></li>
+      </ul>
+
+      <section class="filters">
+        <ul class="sorting">
+          <li>Сортировка:</li>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По популярности</a></li>
+        </ul>
+
+        <form class="filter">
+          <fieldset>
+            <legend>Стоимость</legend>
+            <label for="price"></label>
+            <input type="range" min="0" max="10000" value="5000" id="price" name="price">
+          </fieldset>
+
+          <fieldset>
+            <legend>Цвет</legend>
+            <label for="filter-color"></label>
+            <select class="filter-color" name="color" id="filter-color">
+              <option value="black" selected>Черный</option>
+              <option value="white">Белый</option>
+              <option value="blue" selected>Синий</option>
+              <option value="red" selected>Красный</option>
+              <option value="pink">Розовый</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Bluetooth</legend>
+            <input type="radio" class="filter-radio" name="bluetooth" value="Есть"> Есть
+            <input type="radio" class="filter-radio" name="bluetooth" value="Нет"> Нет
+          </fieldset>
+
+          <button>Показать</button>
+
+        </form>
+      </section>
+
+      <section class="catalog">
+        <ul>
+          <li>
+            <a href="#"><img src="img/item-1.jpg"></a>
+            <a href="#"><p>Любительская селфи-палка</p></a>
+            <span>500 руб.</span>
+          </li>
+          <li>
+            <a href="#"><img src="img/item-2.jpg"></a>
+            <a href="#"><p>Профессиональная селфи-палка</p></a>
+            <span>1500 руб.</span>
+          </li>
+          <li>
+            <a href="#"><img src="img/item-3.jpg"></a>
+            <a href="#"><p>Непотопляемая селфи-палка</p></a>
+            <span>2500 руб.</span>
+          </li>
+          <li>
+            <a href="#"><img src="img/item-4.jpg"></a>
+            <a href="#"><p>Селфи-палка «Следуй за мной»</p></a>
+            <span>4900 руб.</span>
+          </li>
+        </ul>
+
+        <ul class="pagination-list">
+          <li class="pagination-item pagination-back"><a href="#">Назад</a></li>
+          <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+          <li class="pagination-item"><a>2</a></li>
+          <li class="pagination-item"><a href="#">3</a></li>
+          <li class="pagination-item forward"><a href="#">Вперед</a></li>
+        </ul>
+
+      </section>
+
+
+
+    </main>
+
+    <footer class="main-footer">
+      <img src="#" alt="Логотип интернет-магазина электроники «Device»">
+      <p>г. Москва, ул. Строителей, 15</p>
+      <nav class="footer-services">
+        <ul>
+          <li>Доставка</li>
+          <li>Гарантия</li>
+          <li>Контакты</li>
+        </ul>
+      </nav>
+      <ul class="social-button">
+        <li><a href=""><img src="img/fb.svg" width="32" height="32" alt="Facebook"></a></li>
+        <li><a href=""><img src="img/instagram.svg" width="32" height="32" alt="Instagram"></a></li>
+        <li><a href=""><img src="img/twitter.svg" width="32" height="32" alt="Twitter"></a></li>
+      </ul>
+      <nav class="footer-user-navigation">
+        <ul>
+          <li>Валентин Петухов<a class="log-out-link" href="#"><img src="img/user.svg" width="13" height="12" alt="Кнопка выйти из личного кабинета">Войти</a></li>
+          <li><a class="compare-link" href="#"><img src="img/compare.svg" width="10" height="10" alt="Кнопка сравнить товары">Сравнить</a></li>
+          <li><a class="cart-link" href="#"><img src="img/cart.svg" width="12" height="12" alt="Кнопка корзина">Корзина</a></li>
+        </ul>
+      </nav>
+      <p>Тел. +7(495)495-95-95</p>
+      <a href="#"><img src="img/logo-html.svg" width="27" height="35" alt="Логотип HTML Academy"></a>
+    </footer>
+  </body>
+</html>
